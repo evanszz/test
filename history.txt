@@ -1,0 +1,387 @@
+    1  update-desktop-database 
+    2  update-gconf-defaults 
+    3  update-gconf-defaults -h
+    4  ps -ef|grep chrome
+    5  ip a
+    6  sudo ip addr flush enp2s0 
+    7  su - 
+    8  sudo ls
+    9  cat /etc/group
+   10  cat /etc/group|grep sud
+   11  sudo ls
+   12  ls 
+   13  cat .bashrc 
+   14  vim .bashrc 
+   15  xdg-user-dirs-update 
+   16  en
+   17  ls
+   18  export LANG=en_US
+   19  xdg-user-dirs-update 
+   20  xdg-user-dir
+   21  xdg-user-dirs-update =
+   22  export LANG=zh_CN
+   23  xdg-user-dirs-update
+   24  export LANG=en_US
+   25  xdg-user-dirs-update
+   26  ls
+   27  ll
+   28  ls Desktop/
+   29  ls
+   30  mkdir Downloads Documents
+   31  ls
+   32  mkdir Public
+   33  mkdir Music
+   34  ls
+   35  rmdir 下载  公共 文档  桌面 音乐
+   36  ls
+   37  mkdir Pictures
+   38  ls
+   39  mkdir Videos
+   40  ls
+   41  mkdir Templates
+   42  ls
+   43  rmdir  图片  模板  视频
+   44  ls
+   45  cd .config/
+   46  l
+   47  ls
+   48  cat user-dirs.dirs
+   49  vim user-dirs.dirs
+   50  cd 
+   51  ls
+   52  clear
+   53  ls
+   54  ls -a
+   55  cd .config/
+   56  ll
+   57  ls
+   58  cat user-dirs.dirs
+   59  java
+   60  java -version
+   61  javac -version
+   62  clear
+   63  cd 
+   64  history 
+   65  ps -ef|grep xfce
+   66  xfce4-screenshooter --help
+   67  apt search convert
+   68  sudo apt-get update
+   69  sudo apt-get install thunderbird
+   70  sudo apt-get install convert
+   71  sudo apt-get install conver
+   72  sudo apt-get install imagemagick
+   73  sudo apt-get update
+   74  sudo apt-get upgrade 
+   75  cd .thunderbird/
+   76  ll
+   77  rm -rf *
+   78  cd Desktop/
+   79  ll
+   80  ls
+   81  get thunderbird.docx 
+   82  ls
+   83  ip a
+   84  sudo systemctl restart networking
+   85  ip a
+   86  sudo init 0
+   87  ls
+   88  echo $SHELL
+   89  cat /etc/passwd
+   90  ifconfig
+   91  ip
+   92  ip a
+   93  route -n
+   94  route -h
+   95  route --help
+   96  route ?
+   97  ping www.baidu.com
+   98  ssh zhangpeng@sonar.27ops.com
+   99  which ip
+  100  cd /bin/
+  101  l
+  102  ls
+  103  which apt-get 
+  104  ls /usr/bin/
+  105  which java
+  106  java -version
+  107  $JAVA_HOME
+  108  echo $JAVA_HOME
+  109  mvn -v
+  110  which mvn
+  111  sudo apt-get install vscode
+  112  ip a
+  113  cat /etc/network
+  114  which cat
+  115  sudo apt-get install vim
+  116  vim /etc/network
+  117  cd /etc/network/
+  118  ls
+  119  vi interfaces
+  120  route -net
+  121  more interfaces
+  122  ip a
+  123  ipconfig
+  124  cd ~
+  125  ls
+  126  pwd
+  127  unzip xmind-8-update7-linux.zip -d /usr/local/
+  128  sudo unzip xmind-8-update7-linux.zip -d /usr/local/
+  129  chown -R feidao /usr/local/xpla.txt 
+  130  chown -R feidao /usr/local/xpla.txt
+  131  cd /usr/local/
+  132  ls
+  133  ls /home/feidao/
+  134  ls
+  135  cd XMind_amd64/
+  136  ls
+  137  cd configuration/
+  138  ls
+  139  ssh zhangpeng@sonar.27ops.com
+  140  sudo apt-get install sublime-text
+  141  ssh zhangpeng@sonar.27ops.com
+  142  pwd
+  143  ls
+  144  sudo dpkg -i code_1.22.2-1523551015_amd64.deb 
+  145  ls
+  146  pwd
+  147  ls
+  148  sudo dpkg -i scrt-sfx-8.3.1-1537.ubuntu16-64.x86_64.deb 
+  149  javac -version
+  150  java -version
+  151  javac
+  152  which java
+  153  cd /usr/bin/
+  154  ls
+  155  which source 
+  156  java -version\
+  157  java -version
+  158  ls -l /usr/bin/java
+  159  cd ~
+  160  ls
+  161  mkdir src
+  162  ls
+  163  mv 新员工网络学习资料 ls
+  164  ls
+  165  mkdir java
+  166  ls
+  167  tar xf src/jdk-8u45-linux-x64.tar.gz -C /home/feidao/java/
+  168  ls
+  169  cd java/
+  170  ls
+  171  mv jdk1.8.0_45 /home/feidao/
+  172  ls
+  173  cd ..
+  174  ls
+  175  rm -rf java/
+  176  ls
+  177  ln -sv jdk1.8.0_45 java
+  178  ls
+  179  ll
+  180  ls -al
+  181  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  182  sudo apt-get install apt-transport-https
+  183  ls
+  184  cd java
+  185  pwd
+  186  ls
+  187  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  188  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg 
+  189  mvn -V
+  190  mvn -v
+  191  cd ~
+  192  mvn -v
+  193  ls
+  194  vi .bashrc
+  195  source .bashrc
+  196  mvn -v
+  197  ls
+  198  cd P
+  199  cd Public/
+  200  ls
+  201  mvn archetype:create -DgroupId=helloworld -DartifactId=helloworld
+  202  ls
+  203  mvn archetype:create -DgroupId=helloworld -DartifactId=helloworld
+  204  cd ~/maven
+  205  ls
+  206  cd conf/
+  207  ls
+  208  cd ~
+  209  ls
+  210  cd pycharm-community-2017.3/
+  211  ls
+  212  more build.txt 
+  213  more Install-Linux-tar.txt 
+  214  ls
+  215  ls bin/
+  216  ip a
+  217  ipconfig
+  218  ls
+  219  cd ~
+  220  routef 
+  221  routel --help
+  222  routel -help
+  223  route53 --help
+  224  route53 print
+  225  route53 print -4
+  226  route53 -print -4
+  227  python3 -V
+  228  sudo apt-get install -y python3-pip
+  229  pip3 install helloworld
+  230  sudo apt-get install git
+  231  git config --global zhangpeng@ifeidao.com
+  232  git config --global user.name zhangpeng
+  233  git config --global user.email zhangpeng@ifeidao.com
+  234  ssh-keygen 
+  235  git clone vic-git@192.168.40.199:testing
+  236  cd .ssh/
+  237  ls
+  238  cp id_rsa.pub zhangpeng.pub
+  239  ls
+  240  git clone vic-git@192.168.40.199:testing
+  241  ls
+  242  more id_rsa.pub 
+  243  git init
+  244  git clone https://github.com/evanszz/test1.git
+  245  ls
+  246  cd test1/
+  247  ls
+  248  git status
+  249  vi README.rd
+  250  git status
+  251  git add README.rd 
+  252  git status
+  253  ..
+  254  cd ..
+  255  git clone https://github.com/evanszz/test1.git
+  256  cd test1/
+  257  ls
+  258  vi nginx.v
+  259  cd ..
+  260  git add test1/
+  261  cd test1/
+  262  git status
+  263  cd ..
+  264  git clone https://github.com/evanszz/test1.git
+  265  ls
+  266  rm -rf test1/
+  267  git clone https://github.com/evanszz/test1.git
+  268  cd test1/
+  269  ls
+  270  git status
+  271  vi zhangTest.txt
+  272  git add zhangTest.txt 
+  273  git status 
+  274  git commit 
+  275  git status 
+  276  git commit 
+  277  git reset origin/master 
+  278  git status 
+  279  git add zhangTest.txt 
+  280  git commit 
+  281  git status 
+  282  git add zhangTest.txt 
+  283  git push 
+  284  midir jenkins
+  285  mkdir jenkins
+  286  ls
+  287  cd jenkins/
+  288  ls
+  289  vi jenkins.js
+  290  cd ..
+  291  git push 
+  292  git status 
+  293  git add jenkins/
+  294  git status 
+  295  git commit 
+  296  git sta
+  297  git status 
+  298  git commit 
+  299  cd ~
+  300  ls
+  301  vi .bashrc 
+  302  source .bashrc 
+  303  vi .bashrc 
+  304  source .bashrc 
+  305  java -version
+  306  echo $JAVA_HOME
+  307  update-alternatives --install /usr/bin/java java /home/feidao/java/bin/java 1100
+sudo update-alternatives --install /usr/bin/java java /home/feidao/java/bin/java 1100
+sudo update-alternatives --install /usr/bin/javac javac /home/feidao/java/bin/javac 1100
+update-alternatives --config java
+update-alternatives --config javac
+  312  java -version
+  313  javac -version
+  314  java
+  315  javac
+  316  which mvn
+  317  java -version
+  318  javac -version
+  319  mvn -v
+  320  which mvn\
+  321  which mvn
+  322  ls src/
+  323  unzip src/apache-maven-3.2.5-bin.zip -d /home/feidao/
+  324  ls
+  325  cd apache-maven-3.2.5/
+  326  ls
+  327  cd ..
+  328  ls
+  329  ln -sv apache-maven-3.2.5 maven
+  330  vi .bashrc 
+  331  source .bashrc 
+  332  echo $MAVEN_HOME
+  333  mvn -v
+  334  history 
+  335  which python
+  336  python -V
+  337  which python2
+  338  which python3
+  339  vi .bashrc 
+  340  python -version
+  341  python --version
+  342  update-alternatives --list python
+  343  mvn -v
+  344  cat /etc/hosts
+  345  cat /etc/hostname 
+  346  ls
+  347  cd Documents/
+  348  ls
+  349  bash Anaconda3-4.4.0-Linux-x86_64.sh 
+  350  ls
+  351  cd ~/src/
+  352  ls
+  353  tar xf pycharm-community-2017.3.tar.gz -C /home/feidao/
+  354  cd ..
+  355  ls
+  356  cd pycharm-community-2017.3/
+  357  ls
+  358  python
+  359  ls
+  360  ping www.wbrhy.com
+  361  ssh root@47.91.242.68
+  362  curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+  363  sudo apt-get install curl
+  364  sudo apt-get install libcurl3
+  365  which curl
+  366  sudo apt-get --help
+  367  sudo apt-get install curl
+  368  sudo apt --fix-broken install
+  369  sudo apt-get install curl
+  370  curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+  371  ls
+  372  cd !
+  373  cd ~
+  374  ls
+  375  sudo poweroff
+  376  cd .ssh/
+  377  ls
+  378  cd test1/
+  379  ls
+  380  git status 
+  381  git push 
+  382  git status 
+  383  ls
+  384  git commit 
+  385  history >>history.txt
+
+https://linux.cn/article-6970-1.html
